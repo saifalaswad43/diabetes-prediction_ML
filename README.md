@@ -101,7 +101,6 @@ http://localhost:8501
 - https://diabetes-predictionml-ml.streamlit.app/
 ---
 ### 🧠 Machine Learning Workflow
-``` bash
 - Data Cleaning - Handle missing values and outliers
 - Data Preprocessing - Encode categorical variables
 - Feature Scaling - Standardize numerical features
@@ -109,7 +108,6 @@ http://localhost:8501
 - Model Evaluation - Compare performance metrics
 - Model Saving - Export best model using pickle
 - Web Deployment - Deploy with Streamlit
-```
 ---
 ### 📈 App Features
 ``` bash
