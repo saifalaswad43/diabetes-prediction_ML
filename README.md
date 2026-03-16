@@ -110,12 +110,10 @@ http://localhost:8501
 - Web Deployment - Deploy with Streamlit
 ---
 ### 📈 App Features
-``` bash
 - Home Page: Model statistics and performance metrics
 - Prediction Page: Patient data input form with instant results
 - History Page: Save and export prediction history
 - About Page: Project information and developer details
-```
 ---
 ### 👨‍💻 Developer
 ``` bash
