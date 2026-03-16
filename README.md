@@ -101,19 +101,19 @@ http://localhost:8501
 - https://diabetes-predictionml-ml.streamlit.app/
 ---
 ### 🧠 Machine Learning Workflow
-- Data Cleaning - Handle missing values and outliers
-- Data Preprocessing - Encode categorical variables
-- Feature Scaling - Standardize numerical features
-- Model Training - Train multiple classifiers
-- Model Evaluation - Compare performance metrics
-- Model Saving - Export best model using pickle
-- Web Deployment - Deploy with Streamlit
+- **Data Cleaning** - Handle missing values and outliers
+- **Data Preprocessing** - Encode categorical variables
+- **Feature Scaling** - Standardize numerical features
+- **Model Training** - Train multiple classifiers
+- **Model Evaluation** - Compare performance metrics
+- **Model Saving** - Export best model using pickle
+- **Web Deployment** - Deploy with Streamlit
 ---
 ### 📈 App Features
-- Home Page: Model statistics and performance metrics
-- Prediction Page: Patient data input form with instant results
-- History Page: Save and export prediction history
-- About Page: Project information and developer details
+- **Home Page**: Model statistics and performance metrics
+- **Prediction Page**: Patient data input form with instant results
+- **History Page**: Save and export prediction history
+- **About Page**: Project information and developer details
 ---
 ### 👨‍💻 Developer
 ``` bash
