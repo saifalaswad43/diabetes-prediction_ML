@@ -76,12 +76,12 @@ http://127.0.0.1:5000
 ```
 ---
 ### 🧠 Machine Learning Workflow
--Data Cleaning
--Data Preprocessing
--Feature Scaling
--Model Training
--Model Saving using joblib
--Deploying the model using Flask
+- Data Cleaning
+- Data Preprocessing
+- Feature Scaling
+- Model Training
+- Model Saving using joblib
+- Deploying the model using Flask
 ---
 ### 👨‍💻 Developer
 Saif Alaswad
