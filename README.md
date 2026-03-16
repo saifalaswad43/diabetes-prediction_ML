@@ -3,7 +3,25 @@
 A simple web application that uses Machine Learning to predict the likelihood of diabetes based on patient health metrics.
 
 ---
-
+### Dataset Features
+| Feature | Description | Type | Values |
+|---------|-------------|------|--------|
+| `gender` | Patient's gender | Categorical | Male, Female, Other |
+| `age` | Age in years | Numeric | 0.08 - 80 years |
+| `hypertension` | High blood pressure | Binary | 0 (No), 1 (Yes) |
+| `heart_disease` | Heart disease | Binary | 0 (No), 1 (Yes) |
+| `smoking_history` | Smoking history | Categorical | never, No Info, former, current, not current, ever |
+| `bmi` | Body Mass Index | Numeric | 10.0 - 95.7 |
+| `HbA1c_level` | Hemoglobin A1c level | Numeric | 3.5 - 9.0 |
+| `blood_glucose_level` | Blood glucose level | Numeric | 80 - 300 |
+| `diabetes` | Diabetes diagnosis (target) | Binary | 0 (No), 1 (Yes) |
+### Exploratory Data Analysis
+```python
+# Target distribution
+diabetes_distribution = df['diabetes'].value_counts()
+# 0: 50.1% (Non-Diabetic)
+# 1: 49.9% (Diabetic)
+```
 ## ✨ Features
 
 - **Machine Learning Model**: Accurate prediction model trained on healthcare datasets
@@ -45,46 +63,26 @@ text
 ### 1️⃣ Install Requirements
 Open your terminal and run:
 
+```bash```
+### pip install flask flask-cors pandas scikit-learn joblib
+### 2️⃣ Run the Application
 ```bash
-pip install flask flask-cors pandas scikit-learn joblib
-2️⃣ Run the Application
-bash
 python app.py
-3️⃣ Open in Browser
+```
+### 3️⃣ Open in Browser
+```bash
 Go to:
-
 text
 http://127.0.0.1:5000
-📊 Dataset
-The model was trained using a diabetes dataset containing several health indicators such as:
+```
 
-Glucose level
-
-Blood pressure
-
-BMI
-
-Age
-
-Insulin
-
-Skin thickness
-
-Pregnancies
-
-🧠 Machine Learning Workflow
+### 🧠 Machine Learning Workflow
 Data Cleaning
-
 Data Preprocessing
-
 Feature Scaling
-
 Model Training
-
 Model Saving using joblib
-
 Deploying the model using Flask
-
-👨‍💻 Developer
+### 👨‍💻 Developer
 Saif Alaswad
 
