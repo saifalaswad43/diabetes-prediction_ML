@@ -57,17 +57,16 @@ text
 - Joblib
 
 ---
-
 ## 🚀 How to Run
 
 ### 1️⃣ Install Requirements
+```bash
 Open your terminal and run:
-
-```bash```
 ### pip install flask flask-cors pandas scikit-learn joblib
+```
 ### 2️⃣ Run the Application
 ```bash
-python app.py
+run streamlit app.py
 ```
 ### 3️⃣ Open in Browser
 ```bash
@@ -75,14 +74,15 @@ Go to:
 text
 http://127.0.0.1:5000
 ```
-
+---
 ### 🧠 Machine Learning Workflow
-Data Cleaning
-Data Preprocessing
-Feature Scaling
-Model Training
-Model Saving using joblib
-Deploying the model using Flask
+-Data Cleaning
+-Data Preprocessing
+-Feature Scaling
+-Model Training
+-Model Saving using joblib
+-Deploying the model using Flask
+---
 ### 👨‍💻 Developer
 Saif Alaswad
 
